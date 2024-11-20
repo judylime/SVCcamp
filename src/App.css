@@ -1,0 +1,305 @@
+.header-color {
+  /* background: #833ab4; fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    /* #fcb045,
+    #fd1d1d,
+    #833ab4 */
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    /* #fcb045,
+    #fd1d1d,
+    #833ab4 */
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/* 
+.page-title {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  left: '50%';
+  transform: 'translate(-50%, -50%)';
+} */
+
+/* .page-title h2 {
+  position: fixed;
+  border-top: 3px solid grey;
+  width: 15%;
+  padding-top: 0em;
+  margin: 0;
+}
+
+.page-title hr {
+  text-align: center;
+  position: fixed;
+  border-top: 3px solid grey;
+  width: 15%;
+  padding-top: 10px;
+  margin-top: 50px;
+} */
+
+.page-content {
+  display: block;
+  padding: 0rem;
+  margin: auto;
+  float: center;
+  overflow: auto;
+  text-align: center;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+}
+/* Landing page css */
+
+.landing-grid {
+  /* background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    /* to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4 */
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    /* #fcb045,
+    #fd1d1d,
+    #833ab4 */
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1.5em;
+}
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 65%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h2 {
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  padding-top: 0.2em;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-links i {
+  font-size: 2em;
+  color: white;
+}
+
+/* About page css */
+.about-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.about-right-col {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+  background: white;
+  color: black;
+}
+
+.about-right-col h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.about-right-col p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.about-right-col hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.progress-bar {
+  text-align: center;
+  text-decoration: none;
+}
+
+.progress-bar p {
+  font-size: 120%;
+  color: grey;
+  font-style: normal;
+  padding-top: 0.3em;
+  text-align: right;
+}
+
+/* Projects page css */
+
+.projects-grid {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+}
+
+/* Blog page css */
+.blog-grid {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+}
+
+/* contact page css */
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 3em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: left;
+  width: 80%;
+  height: 100%;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  margin: auto;
+  font-size: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  float: center;
+  /* padding-left: 1rem; */
+}
+
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+  padding-bottom: 3.5em;
+}
+
+.lets-connect-i {
+  /* width: auto; */
+  color: black;
+  margin: 1em 0em;
+  font-size: 5em;
+}
+
+.lets-connect-i a{
+  padding: 0.15em ;
+  color: black;
+    /* justify-content: space-between; */
+}
+
+/* footer */
+.footer {
+  margin: 0%;
+  padding: 0%;
+  position: fixed;
+  bottom: 0em;
+  width: 100%;
+  text-align: left;
+  /* height: auto; */
+}
+
+.social-media {
+  margin: auto;
+  text-align: left;
+  justify-content: right;
+}
+
+.social-media i {
+  padding-top: 0.5em;
+  padding-right: 1rem;
+  color: white;
+  font-size: 1.5em;
+}
+
+/* Floating WeChat Button */
+.wechat-floating {
+  position: fixed;
+  top: 150px; /* Top margin from the page */
+  right: 20px; /* Right margin from the page */
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+
+.wechat-floating button {
+  background-color: #2e7d32; /* Green background for WeChat */
+  color: white; /* White text/icons */
+  border: none; /* No border */
+  border-radius: 12px; /* Rounded corners */
+  padding: 1px 10px; /* Adjust padding for size */
+  font-size: 36px; /* Adjust text size */
+  cursor: pointer; /* Pointer cursor */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  display: flex; /* Use flex for icon alignment */
+  align-items: center; /* Center icon vertically */
+  justify-content: center; /* Center icon horizontally */
+  width: 60px; /* Set fixed width */
+  height: 60px; /* Set fixed height */
+}
+
+/* Add hover effect for interactivity */
+.wechat-floating button:hover {
+  background-color: #1b5e20; /* Darker green on hover */
+}
+
+/* WeChat Icon inside the button */
+.wechat-floating-i{
+  color: white;
+}
+
+.contact-icons {
+  /* display:contents; */
+  align-items: center; /* Center icons vertically */
+  gap: 10px; /* Space between icons */
+  padding: 0px 5px;
+}
