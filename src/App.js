@@ -1,21 +1,13 @@
-import React from 'react';
-import {
-  Layout,
-  Header,
-  HeaderRow,
-  Navigation,
-  Drawer,
-  Content
-} from 'react-mdl';
-import Main from './pages/Main';
-import { Link } from 'react-router-dom';
-import './App.css';
-import SearchBar from './components/SearchBar';
+import React from "react";
+import { Layout, Content } from "react-mdl";
+import Main from "./pages/Main";
+import "./App.css";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
     /* Hide the top part of the header when scrolling down */
-    <div className='demo-big-content'>
+    <div className="demo-big-content">
       <Layout>
         <SearchBar />
         <Content>
