@@ -1,12 +1,9 @@
 import React, { Component } from "react";
 import { Tab, Tabs, Grid } from "react-mdl";
-import InterviewTemplate from "../components/InterviewTemplate";
 import TutorialTemplate from "../components/TutorialTemplate";
-import ContactFooter from "../components/ContactFooter";
 import FloatButton from "../components/FloatButton";
 
 // Simple header with scrollable tabs
-
 class Blog extends Component {
   constructor(props) {
     super(props);
@@ -59,32 +56,32 @@ class Blog extends Component {
       return (
         <div className="page-content">
           <Grid>
-            <InterviewTemplate
+            <TutorialTemplate
               description="Top 50 MySQL Interview Questions & Answers	"
               URL="https://career.guru99.com/top-50-mysql-interview-questions-answers/"
               img="https://career.guru99.com/wp-content/uploads/2014/07/MySQL.svg_.png"
             />
-            <InterviewTemplate
+            <TutorialTemplate
               description="44 Practical Apache Web Server Interview Questions with Answers"
               URL="https://geekflare.com/apache-interview-questions-answers/"
               img="https://pbs.twimg.com/media/DWbNPSFV4AAtIry?format=jpg&name=small"
             />
-            <InterviewTemplate
+            <TutorialTemplate
               description="Build An Automated Testing Pipeline With GitLab CI/CD & Selenium Grid"
               URL="https://www.lambdatest.com/blog/automated-testing-pipeline-with-gitlab-ci-cd-and-selenium/"
               img="https://www.lambdatest.com/blog/wp-content/uploads/2020/03/GitLab-CI-CD-and-Selenium-Grid.jpg"
             />
-            <InterviewTemplate
+            <TutorialTemplate
               description="What is Black Box Testing?"
               URL="https://www.rainforestqa.com/blog/2018-10-26-what-is-black-box-testing"
               img="https://wp-images.rainforestqa.com/wp-content/uploads/2018/01/fb5ae6a9088b3b48cff4e4a29de06359.png"
             />
-            <InterviewTemplate
+            <TutorialTemplate
               description="white box testing"
               URL="https://searchsoftwarequality.techtarget.com/definition/white-box"
               img="http://4.bp.blogspot.com/-_LCeNcoLr8c/USSeshoupNI/AAAAAAAAAkM/SxZkrvutuGc/s1600/white-box-testing.png"
             />
-            <InterviewTemplate
+            <TutorialTemplate
               description="7 Web Developer Interview Questions and Answers"
               URL="https://www.indeed.com/hire/interview-questions/web-developer?aceid=&gclid=Cj0KCQjwyJn5BRDrARIsADZ9ykFxa2SmNgl6dWXeAgjjPsdIJjtvbRsB61FJIMz3pXVTzkf2-iY4J-QaAm3gEALw_wcB"
               img="https://cdn.seeklearning.com.au/media/images/career-guide/article/career-advice/web_images/blogs/214/3725/how_to_prepare_for_a_video_interview_like_a_pro_940x485.jpg"
@@ -114,7 +111,6 @@ class Blog extends Component {
           </div>
         </div>
         <FloatButton />
-        <ContactFooter />
       </div>
     );
   }

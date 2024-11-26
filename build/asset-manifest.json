@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.89624900.chunk.css",
-    "main.js": "/Portfolio-React/static/js/main.937a6720.chunk.js",
-    "main.js.map": "/Portfolio-React/static/js/main.937a6720.chunk.js.map",
-    "runtime~main.js": "/Portfolio-React/static/js/runtime~main.ee84cd26.js",
-    "runtime~main.js.map": "/Portfolio-React/static/js/runtime~main.ee84cd26.js.map",
-    "static/css/2.45dff86c.chunk.css": "/Portfolio-React/static/css/2.45dff86c.chunk.css",
-    "static/js/2.b6573cb2.chunk.js": "/Portfolio-React/static/js/2.b6573cb2.chunk.js",
-    "static/js/2.b6573cb2.chunk.js.map": "/Portfolio-React/static/js/2.b6573cb2.chunk.js.map",
-    "index.html": "/Portfolio-React/index.html",
-    "precache-manifest.1ffb5949029004f83f4db8f5525b71ee.js": "/Portfolio-React/precache-manifest.1ffb5949029004f83f4db8f5525b71ee.js",
-    "service-worker.js": "/Portfolio-React/service-worker.js",
-    "static/css/2.45dff86c.chunk.css.map": "/Portfolio-React/static/css/2.45dff86c.chunk.css.map",
-    "static/css/main.89624900.chunk.css.map": "/Portfolio-React/static/css/main.89624900.chunk.css.map",
-    "static/media/image.png": "/Portfolio-React/static/media/image.5056ec3e.png"
+    "main.css": "/SVCcamp/static/css/main.c6e0171e.chunk.css",
+    "main.js": "/SVCcamp/static/js/main.72951569.chunk.js",
+    "main.js.map": "/SVCcamp/static/js/main.72951569.chunk.js.map",
+    "runtime~main.js": "/SVCcamp/static/js/runtime~main.0d3aac37.js",
+    "runtime~main.js.map": "/SVCcamp/static/js/runtime~main.0d3aac37.js.map",
+    "static/css/2.45dff86c.chunk.css": "/SVCcamp/static/css/2.45dff86c.chunk.css",
+    "static/js/2.b6573cb2.chunk.js": "/SVCcamp/static/js/2.b6573cb2.chunk.js",
+    "static/js/2.b6573cb2.chunk.js.map": "/SVCcamp/static/js/2.b6573cb2.chunk.js.map",
+    "index.html": "/SVCcamp/index.html",
+    "precache-manifest.21db3fa19eb6c06993f0461b38f6a1c6.js": "/SVCcamp/precache-manifest.21db3fa19eb6c06993f0461b38f6a1c6.js",
+    "service-worker.js": "/SVCcamp/service-worker.js",
+    "static/css/2.45dff86c.chunk.css.map": "/SVCcamp/static/css/2.45dff86c.chunk.css.map",
+    "static/css/main.c6e0171e.chunk.css.map": "/SVCcamp/static/css/main.c6e0171e.chunk.css.map",
+    "static/media/image.png": "/SVCcamp/static/media/image.5056ec3e.png"
   }
 }

@@ -1,44 +1,12 @@
 .header-color {
   /* background: #833ab4; fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
-    /* #fcb045,
-    #fd1d1d,
-    #833ab4 */
+    to right
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    /* #fcb045,
-    #fd1d1d,
-    #833ab4 */
+    to right
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-/* 
-.page-title {
-  text-align: center;
-  position: fixed;
-  top: 0;
-  justify-content: center;
-  left: '50%';
-  transform: 'translate(-50%, -50%)';
-} */
-
-/* .page-title h2 {
-  position: fixed;
-  border-top: 3px solid grey;
-  width: 15%;
-  padding-top: 0em;
-  margin: 0;
-}
-
-.page-title hr {
-  text-align: center;
-  position: fixed;
-  border-top: 3px solid grey;
-  width: 15%;
-  padding-top: 10px;
-  margin-top: 50px;
-} */
 
 .page-content {
   display: block;
@@ -47,25 +15,13 @@
   float: center;
   overflow: auto;
   text-align: center;
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
 }
 /* Landing page css */
 
 .landing-grid {
-  /* background: #833ab4; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    /* to right,
-    #fcb045,
-    #fd1d1d,
-    #833ab4 */
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    /* #fcb045,
-    #fd1d1d,
-    #833ab4 */
+    to right
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
@@ -75,6 +31,7 @@
   height: 100%;
   padding: 1.5em;
 }
+
 .banner-text {
   background-color: black;
   opacity: 0.8;
@@ -129,11 +86,11 @@
 }
 
 .about-right-col h2 {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
 
 .about-right-col p {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-weight: bold;
 }
 
@@ -157,7 +114,6 @@
 }
 
 /* Projects page css */
-
 .projects-grid {
   display: flex;
   padding-top: 2rem;
@@ -192,13 +148,13 @@
 }
 
 .contact-grid h2 {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   text-align: center;
   color: black;
 }
 
 .contact-grid p {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-weight: bold;
   color: black;
 }
@@ -215,11 +171,9 @@
   padding-right: 2rem;
   text-align: center;
   float: center;
-  /* padding-left: 1rem; */
 }
 
 /* contact page css */
-
 .avatar-img {
   height: 250px;
   padding-top: 5em;
@@ -227,19 +181,16 @@
 }
 
 .lets-connect-i {
-  /* width: auto; */
   color: black;
   margin: 1em 0em;
   font-size: 5em;
 }
 
-.lets-connect-i a{
-  padding: 0.15em ;
+.lets-connect-i a {
+  padding: 0.15em;
   color: black;
-    /* justify-content: space-between; */
 }
 
-/* footer */
 .footer {
   margin: 0%;
   padding: 0%;
@@ -247,7 +198,6 @@
   bottom: 0em;
   width: 100%;
   text-align: left;
-  /* height: auto; */
 }
 
 .social-media {
@@ -293,13 +243,22 @@
 }
 
 /* WeChat Icon inside the button */
-.wechat-floating-i{
+.wechat-floating-i {
   color: white;
 }
 
 .contact-icons {
-  /* display:contents; */
   align-items: center; /* Center icons vertically */
   gap: 10px; /* Space between icons */
   padding: 0px 5px;
+}
+
+.contact-wechat {
+  color: green;
+  font-size: 50px;
+}
+
+.contact-env {
+  color: #099bf5;
+  font-size: 50px; /* Adjust text size */
 }

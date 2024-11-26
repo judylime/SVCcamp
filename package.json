@@ -1,6 +1,6 @@
 {
-  "homepage": "https://judylime.github.io/Portfolio-React",
-  "name": "myportfoliosite",
+  "homepage": "https://judylime.github.io/SVCcamp",
+  "name": "SVCcamp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,7 +22,8 @@
     "test": "jest",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --exclude '*.map' '*.log' '*.tmp'"
+    "postbuild": "find build -name '*.map' -type f -delete && find build -name '*.log' -type f -delete && find build -name '*.tmp' -type f -delete",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

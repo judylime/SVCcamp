@@ -18,25 +18,17 @@ export class Contact extends Component {
           <Cell col={6}>
             <div className="contact-option">
               <h3>1. 微信扫码咨询</h3>
-              <img
-                src="wechat-qr-code.png" // Replace with the correct QR code path
-                alt="WeChat QR Code"
-                className="qr-code"
-              />
+              <i className="fa fa-wechat contact-wechat" aria-hidden="true"></i>
               <p>扫描二维码联系课程顾问咨询</p>
             </div>
           </Cell>
           <Cell col={6}>
             <div className="contact-option">
               <h3>2. 邮件发送简历咨询</h3>
-              <img
-                src="email-icon.png" // Replace with your email icon path
-                alt="Email Icon"
-                className="email-icon"
-              />
+              <i className="fa fa-envelope-square contact-env" aria-hidden="true"></i>
               <p>
                 请将个人简历发送至邮箱{" "}
-                <a href="mailto:test@gmail.com">test@gmail.com</a>
+                <a href="mailto:svcodingcamp@gmail.com">svcodingcamp@gmail.com</a>
               </p>
               <p>我们将在收到邮件后 24 小时内与您联系，请关注邮箱状态。</p>
             </div>

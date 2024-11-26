@@ -1,9 +1,5 @@
 import React, { Component } from "react";
-import {
-  Footer,
-  FooterLinkList,
-  FooterSection,
-} from "react-mdl";
+import { Footer, FooterLinkList, FooterSection } from "react-mdl";
 export class ContactFooter extends Component {
   render() {
     return (
@@ -25,14 +21,14 @@ export class ContactFooter extends Component {
                 <a href="/Contact">Contact Us</a>
                 <br></br>
                 <a
-                  href="mailto:test@gmail.com"
+                  href="mailto:svcodingcamp@gmail.com"
                   title="Email"
                   className="contact-icons"
                 >
                   <i className="fa fa-envelope-square" aria-hidden="true"></i>
                 </a>
                 <a
-                  href="mailto:test@gmail.com"
+                  href="mailto:svcodingcamp@gmail.com"
                   title="Wechat"
                   className="contact-icons"
                 >
