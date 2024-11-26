@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import FloatButton from "../components/FloatButton";
 import SV from "../image/SV.jpeg";
-import techedu from "../image/techedu.jpg";
+import techedu from "../image/image.png";
 
 export class LandingPage extends Component {
   render() {

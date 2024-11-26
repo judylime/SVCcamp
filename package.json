@@ -22,7 +22,7 @@
     "test": "jest",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build --exclude '*.map' '*.log' '*.tmp'"
   },
   "eslintConfig": {
     "extends": "react-app"

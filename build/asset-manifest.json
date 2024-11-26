@@ -1,20 +1,18 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.89624900.chunk.css",
-    "main.js": "/Portfolio-React/static/js/main.8514081d.chunk.js",
-    "main.js.map": "/Portfolio-React/static/js/main.8514081d.chunk.js.map",
+    "main.js": "/Portfolio-React/static/js/main.937a6720.chunk.js",
+    "main.js.map": "/Portfolio-React/static/js/main.937a6720.chunk.js.map",
     "runtime~main.js": "/Portfolio-React/static/js/runtime~main.ee84cd26.js",
     "runtime~main.js.map": "/Portfolio-React/static/js/runtime~main.ee84cd26.js.map",
     "static/css/2.45dff86c.chunk.css": "/Portfolio-React/static/css/2.45dff86c.chunk.css",
     "static/js/2.b6573cb2.chunk.js": "/Portfolio-React/static/js/2.b6573cb2.chunk.js",
     "static/js/2.b6573cb2.chunk.js.map": "/Portfolio-React/static/js/2.b6573cb2.chunk.js.map",
     "index.html": "/Portfolio-React/index.html",
-    "precache-manifest.f4e762b9cb8f4a5f6a3daf5085839df0.js": "/Portfolio-React/precache-manifest.f4e762b9cb8f4a5f6a3daf5085839df0.js",
+    "precache-manifest.1ffb5949029004f83f4db8f5525b71ee.js": "/Portfolio-React/precache-manifest.1ffb5949029004f83f4db8f5525b71ee.js",
     "service-worker.js": "/Portfolio-React/service-worker.js",
     "static/css/2.45dff86c.chunk.css.map": "/Portfolio-React/static/css/2.45dff86c.chunk.css.map",
     "static/css/main.89624900.chunk.css.map": "/Portfolio-React/static/css/main.89624900.chunk.css.map",
-    "static/media/Frank.jpg": "/Portfolio-React/static/media/Frank.b3815bae.jpg",
-    "static/media/jingyi.jpg": "/Portfolio-React/static/media/jingyi.19ae5788.jpg",
-    "static/media/techedu.jpg": "/Portfolio-React/static/media/techedu.168e829e.jpg"
+    "static/media/image.png": "/Portfolio-React/static/media/image.5056ec3e.png"
   }
 }

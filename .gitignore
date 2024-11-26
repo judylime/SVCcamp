@@ -14,3 +14,7 @@ logs/
 # Build outputs
 dist/
 build/
+
+*.map
+*.bak
+*.tmp

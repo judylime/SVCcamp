@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import ProjectsTemplate from "../components/ProjectsTemplate";
 import FloatButton from "../components/FloatButton";
-import jingyi from "../image/jingyi.jpg";
-import Frank from "../image/Frank.jpg";
+import Jingyi from "../image/Jingyi.png";
+import Frank from "../image/Frank.png";
 import Jeff from "../image/Jeff.jpeg";
 import Cathy from "../image/Cathy.png";
 
@@ -28,12 +28,12 @@ class About extends Component {
             align="center"
           >
             <ProjectsTemplate
-              img={Frank}
+              img={Jingyi}
               projects="静翼老师"
               description="FLAGM资深工程师 - 在职Meta资深高级工程师, 斩获Google ，Facebook，Microsoft，Linkedin，Apple, Amazon等多家全家桶offer。拥有极其丰富的面试，面试官及算法教学经验。"
             />
             <ProjectsTemplate
-              img={jingyi}
+              img={Frank}
               projects="Frank老师"
               description="FLAGM资深工程师 - Microsoft高级工程师，曾斩获Google 、Meta、Amazon等多家offer。不仅拥有丰富的面试经验，还有非常丰富的面试官经验及算法教学经验，能够在短时间内帮助大家补齐面试技能短板。"
             />
