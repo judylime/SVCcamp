@@ -13,8 +13,8 @@ const Main = () => (
     <Route exact path="/projects" component={Projects} />
     <Route exact path="/blog" component={Blog} />
     <Route exact path="/contact" component={Contact} />
-    <Route exact path="/Portfolio-React" component={LandingPage} />
-    <Route exact path="/home" component={LandingPage} />
+    {/* Default route */}
+    <Route component={LandingPage} />
   </Switch>
 );
 
