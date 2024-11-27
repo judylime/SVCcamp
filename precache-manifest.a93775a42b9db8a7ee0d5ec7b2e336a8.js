@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31b6934b1958d6e20276f0fa6ac3413c",
+    "revision": "7f43010ac6874728ab22eb87c8f074ad",
     "url": "/SVCcamp/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SVCcamp/static/css/2.45dff86c.chunk.css"
   },
   {
-    "revision": "6489e8cb4aafc99b40de",
+    "revision": "3774178bdae78607df6c",
     "url": "/SVCcamp/static/css/main.c6e0171e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SVCcamp/static/js/2.b6573cb2.chunk.js"
   },
   {
-    "revision": "6489e8cb4aafc99b40de",
-    "url": "/SVCcamp/static/js/main.72951569.chunk.js"
+    "revision": "3774178bdae78607df6c",
+    "url": "/SVCcamp/static/js/main.600dd202.chunk.js"
   },
   {
     "revision": "fb804e587bc13bd77d27",
