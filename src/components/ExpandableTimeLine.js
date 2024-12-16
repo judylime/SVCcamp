@@ -8,7 +8,6 @@ function ExpandableTimeline() {
   };
 
   const buttonStyle = {
-    // border: "2px solid #1976D2", // Blue border
     backgroundColor: "#E3F2FD", // Light blue background
     borderRadius: "8px",
     width: "50px",
