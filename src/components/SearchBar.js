@@ -18,7 +18,7 @@ function SearchBar() {
               style={{ textDecoration: "none", color: "white", shadow: "0" }}
               to="/"
             >
-              硅谷码农职业技术培训
+              硅谷码职业技术培训
             </Link>
           }
           scroll

@@ -50,8 +50,8 @@ function CourseTimeline() {
 
             <h4 style={{ color: "#2196F3", margin: "10px 0" }}>第3周</h4>
             <ul>
-            <li>位运算+状态压缩</li>
-            <li>差分</li>
+              <li>位运算+状态压缩</li>
+              <li>差分</li>
               <li>链表</li>
             </ul>
 
@@ -59,7 +59,6 @@ function CourseTimeline() {
             <ul>
               <li>单调栈</li>
               <li>单调队列</li>
-
             </ul>
 
             <h4 style={{ color: "#2196F3", margin: "10px 0" }}>第5周</h4>
@@ -72,14 +71,12 @@ function CourseTimeline() {
             <ul>
               <li>堆</li>
               <li>字符串哈希</li>
-
             </ul>
 
             <h4 style={{ color: "#2196F3", margin: "10px 0" }}>第7周</h4>
             <ul>
               <li>BFS</li>
               <li>DFS</li>
-
             </ul>
 
             <h4 style={{ color: "#2196F3", margin: "10px 0" }}>第8周</h4>

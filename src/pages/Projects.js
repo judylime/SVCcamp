@@ -3,6 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import AboutSkills from "../components/AboutSkills";
 import FloatButton from "../components/FloatButton";
 import CourseOutline from "../components/CourseOutline";
+import PromoCard from "../components/PromoCard";
 
 class Projects extends Component {
   constructor(props) {
@@ -22,6 +23,7 @@ class Projects extends Component {
             <Cell col={12} style={{ textAlign: "left" }}>
               <h3>培训课程计划 ： 全面备战求职的高效路径</h3>
               <hr />
+              <PromoCard/>
               <CourseOutline/>
               <hr />
               <h4>软件工程师求职流程</h4>

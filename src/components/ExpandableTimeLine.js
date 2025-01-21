@@ -29,19 +29,17 @@ function ExpandableTimeline() {
 
   return (
     <div style={{ padding: "20px" }}>
-      {/* Title */}
-
       {/* Timeline Content */}
       <div style={{ position: "relative", marginLeft: "10px" }}>
-
         {isExpanded && (
           <>
-          <h4 style={{ color: "#2196F3", margin: 0 }}>第1周</h4>
-        <ul>
-          <li>Java Basics I</li>
-          <li>Java Basics II</li>
-          <li>Java Basics III</li>
-        </ul>
+            <h4 style={{ color: "#2196F3", margin: 0 }}>第1周</h4>
+            <ul>
+              <li>Java Basics I</li>
+              <li>Java Basics II</li>
+              <li>Java Basics III</li>
+            </ul>
+            
             <h4 style={{ color: "#2196F3", margin: 0 }}>第2周</h4>
             <ul>
               <li>Java Basics IV</li>

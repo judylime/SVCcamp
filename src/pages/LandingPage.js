@@ -19,11 +19,11 @@ export class LandingPage extends Component {
               <img src={techedu} alt="avatar" className="avatar-img" />
               <img src={SV} alt="avatar" className="avatar-img" />
               <div>
-                <h3>为什么选择硅谷码农职业技术培训？</h3>
+                <h3>为什么选择硅谷职业技术培训？</h3>
                 <hr />
                 <h4>1. 良好的口碑</h4>
                 <p>
-                  硅谷码农职业技术培训始终以优质教学和卓越的求职成果著称。
+                  硅谷职业技术培训始终以优质教学和卓越的求职成果著称。
                   <ol>
                     高成功率：93%的学员获得来自FLAG及其他北美一线科技公司的OFFER。
                   </ol>
@@ -71,7 +71,7 @@ export class LandingPage extends Component {
                   </ol>
                 </p>
                 <p>
-                  硅谷码农职业技术培训致力于用强大的导师资源、完善的服务体系和全面的学习支持，为学员提供通往北美一线科技公司的最佳路径。
+                  硅谷码职业技术培训致力于用强大的导师资源、完善的服务体系和全面的学习支持，为学员提供通往北美一线科技公司的最佳路径。
                 </p>
               </div>
             </Cell>

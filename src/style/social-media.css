@@ -96,3 +96,7 @@ ul li:hover a span {
   display: block;
   font-size: 15px;
 }
+
+qr-code {
+  font-size: 15px;
+}
